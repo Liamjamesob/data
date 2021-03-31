@@ -7,9 +7,10 @@ shiftLat = 0.003
 shiftLon = 0.003
 
 
+print(df)
 df['lat'] += shiftLat
 df['lon'] += shiftLon
-
+print(df)
 
 df.to_csv('AllCrimeSummed.csv', index=False)
 
