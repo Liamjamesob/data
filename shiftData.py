@@ -3,8 +3,8 @@ import pandas as pd
 
 df = pd.read_csv('AllCrimeSummed.csv')
 
-shiftLat = 0.003 * 75
-shiftLon = 0.003 * 75
+shiftLat = 0.003 * 750
+shiftLon = 0.003 * 750
 
 
 print(df)
